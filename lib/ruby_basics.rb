@@ -1,23 +1,24 @@
-def division
-    
+def division(number1, number2)
+    number1/number2
 end
 
-def argue
+def argue (something)
+    something
   
 end
 
-def greeting
-
+def greeting(argument1, argument2)
+puts "#{argument1} and #{argument2}"
 end
 
-def return_a_value
-    
+def return_a_value(nice="Nice")
+   "#{nice}"
 end
 
-def pizza_party
-    
+def pizza_party(topping="cheese")
+    "#{topping}"
 end
 
-def whisper
-    
+def whisper(word)
+    "#{word.downcase}"
 end
